@@ -1,0 +1,200 @@
+Script started on Fri 09 Feb 2018 10:17:22 AM EST
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[?1034h[tirwin@dmzlondo assignment2]$ gcc twentyone.c
+[01m[Ktwentyone.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ktwentyone.c:15:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+   exit(0);
+[01;32m[K   ^[m[K
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 35
+Number = 35
+CHILD: 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ /[K./a.out
+Welcome
+Enter a number: 1
+Number = 1
+CHILD: 1
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 0
+Invalid Integer. Positive Integers Only.
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: -1
+Invalid Integer. Positive Integers Only.
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 45
+Number = 45
+CHILD: 45, 136, 68, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ gcc twentytwo.c -pthread -lrt
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 35
+Child Read: 
+ Child wrote: 35
+Child Read: 
+ Child wrote: 106
+Child Read: 
+ Child wrote: 53
+Child Read: 
+ Child wrote: 160
+Child Read: 
+ Child wrote: 80
+Child Read: 
+ Child wrote: 40
+Child Read: 
+ Child wrote: 20
+Child Read: 
+ Child wrote: 10
+Child Read: 
+ Child wrote: 5
+Child Read: 
+ Child wrote: 16
+Child Read: 
+ Child wrote: 8
+Child Read: 
+ Child wrote: 4
+Child Read: 
+ Child wrote: 2
+Parent read: 35 
+Parent read: 106 
+Parent read: 53 
+Parent read: 160 
+Parent read: 80 
+Parent read: 40 
+Parent read: 20 
+Parent read: 10 
+Parent read: 5 
+Parent read: 16 
+Parent read: 8 
+Parent read: 4 
+Parent read: 2 
+Parent read:  
+Parent read:  
+Parent read:  
+Parent read:  
+Parent read:  
+Parent read:  
+Parent read:  
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 0
+Invalid
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: -1
+Invalid
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Welcome
+Enter a number: 45
+Child Read: 
+ Child wrote: 45
+Child Read: 
+ Child wrote: 136
+Child Read: 
+ Child wrote: 68
+Child Read: 
+ Child wrote: 34
+Child Read: 
+ Child wrote: 17
+Child Read: 
+ Child wrote: 52
+Child Read: 
+ Child wrote: 26
+Child Read: 
+ Child wrote: 13
+Child Read: 
+ Child wrote: 40
+Child Read: 
+ Child wrote: 20
+Child Read: 
+ Child wrote: 10
+Child Read: 
+ Child wrote: 5
+Child Read: 
+ Child wrote: 16
+Child Read: 
+ Child wrote: 8
+Child Read: 
+ Child wrote: 4
+Child Read: 
+ Child wrote: 2
+Parent read: 45 
+Parent read: 136 
+Parent read: 68 
+Parent read: 34 
+Parent read: 17 
+Parent read: 52 
+Parent read: 26 
+Parent read: 13 
+Parent read: 40 
+Parent read: 20 
+Parent read: 10 
+Parent read: 5 
+Parent read: 16 
+Parent read: 8 
+Parent read: 4 
+Parent read: 2 
+Parent read:  
+Parent read:  
+Parent read:  
+Parent read:  
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ javac HaikuServer.java 
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ javac HaikuClient.java 
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ java HaikuClient.[K
+Merge Sort or Quick Sort 
+Insertion or Selection 
+Nah, use BOGO
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ java HaikuClient
+OS is so fun 
+Dr. ElAarag is mad cool 
+I miss JavaScript
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ java HaikuClient
+Stupid compiler 
+Never does what I want it 
+Only what it's told
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ gcc twentysix.c -lrt -pthread
+[01m[Ktwentysix.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ktwentysix.c:21:4:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+    exit(0);
+[01;32m[K    ^[m[K
+[01m[Ktwentysix.c:27:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+   exit(0);
+[01;32m[K   ^[m[K
+[01m[Ktwentysix.c:36:4:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+    exit(0);
+[01;32m[K    ^[m[K
+[01m[Ktwentysix.c:70:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+   exit(0);
+[01;32m[K   ^[m[K
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Parent sending msg Hello There
+Child read message Hello There. sending changes to parent
+Child sending hELLO tHERE
+parent received msg hELLO tHERE
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ nano
+[?1049h[1;49r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.9                    New Buffer                                               [48;1H^G(B[m Get Help    (B[0;7m^O(B[m WriteOut    (B[0;7m^R(B[m Read File   (B[0;7m^Y(B[m Prev Page   (B[0;7m^K(B[m Cut Text    (B[0;7m^C(B[m Cur Pos[49d(B[0;7m^X(B[m Exit[49;16H(B[0;7m^J(B[m Justify     (B[0;7m^W(B[m Where Is    (B[0;7m^V(B[m Next Page   (B[0;7m^U(B[m UnCut Text  (B[0;7m^T(B[m To Spell[3d[48d[J[49;93H[49;1H[?1049l[?1l>]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ nano twentysix.c 
+[?1049h[1;49r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.9                  File: twentysix.c                                          [3;1H(B[m#include <sys/types.h>[4d#include <stdio.h>[5d#include <string.h>[6d#include <unistd.h>[7d#include <ctype.h>[9d#define BUFFER_SIZE 25[10d#define READ_END1 0[11d#define WRITE_END2 1[12d#define READ_END2 2[13d#define WRITE_END1 3[14dint main(int argc, char argv[]){[15;9Hchar write_msg[BUFFER_SIZE] = "Hello There";[16;9Hchar read_msg[BUFFER_SIZE];[17;9Hint fd[4];[18;9Hint sent,i;[19;9Hpid_t pid;[20;9Hfor(i = 0; i < 2; ++i){[21;17Hif(pipe(fd+(i*2)) <0){[22;25Hfprintf(stderr,"pipe failed");[23;25Hexit(0);[24;17H}[25;9H}[26d	pid = fork();[27;9Hif(pid < 0){[28;17Hfprintf(stderr,"Fork failed");[29;17Hexit(0);[30;9H}[31d	if(pid == 0){[32;17Hclose(fd[READ_END1]);[33;17Hclose(fd[WRITE_END1]);[35;17Hsent = read(fd[READ_END2],&read_msg,sent);[36;17Hif(sent < 0){[37;25Hfprintf(stderr,"child: failed pipe read");[38;25Hexit(0);[39;17H}else if(sent == 0){[40;25Hfprintf(stderr,"Read poor from pipe");[41;17H}else{[42d	printf("Child read message %s. sending changes to parent\n",read_msg$[43;25Hi = 0;[44;25Hwhile(read_msg[i]){[45;33Hif(isupper(read_msg[i])){[46;41Hread_msg[i] = tolower(read_msg[i]);[47;39H(B[0;7m[ Read 80 lines ][48d^G(B[m Get Help    (B[0;7m^O(B[m WriteOut    (B[0;7m^R(B[m Read File   (B[0;7m^Y(B[m Prev Page   (B[0;7m^K(B[m Cut Text    (B[0;7m^C(B[m Cur Pos[49d(B[0;7m^X(B[m Exit[49;16H(B[0;7m^J(B[m Justify     (B[0;7m^W(B[m Where Is    (B[0;7m^V(B[m Next Page   (B[0;7m^U(B[m UnCut Text  (B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[16;9Hchar re	d_m[47d[K[16;21Hg[B	FFER_[A_S	ZE] = "	ello Th	re[1;84H(B[0;7mModified[15;50H(B[m";[K[Z";[K[Z";[K[Z";[K";[K";[K";[Kl";[K";[K[Z";[K[Z";[K[Zg";[ZR";E";EE";T";I";N";G";[ZS";[Z[47d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                 [48;1H Y(B[m Yes[K[49d(B[0;7m N(B[m No  [49;16H (B[0;7m^C(B[m Cancel[K[47;62H(B[0;7mFile Name to Write: twentysix.c                             [48d^G(B[m Get Help[48;24H(B[0;7m^T(B[m To Files[48;47H(B[0;7mM-M(B[m Mac Format[48;70H(B[0;7mM-P(B[m Prepend[49d(B[0;7m^C(B[m Cancel	       (B[0;7mM-D(B[m DOS Format[49;47H(B[0;7mM-A(B[m Append[49;70H(B[0;7mM-B(B[m Backup File[47;32H[48d[39;49m(B[m[J[1;84H(B[0;7m        [47;37H(B[m[1K (B[0;7m[ Wrote 80 lines ](B[m[K[49;93H[49;1H[?1049l[?1l>]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ nano twentysix.c [K./a.outgcc twentysix.c -lrt -pthread
+[01m[Ktwentysix.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ktwentysix.c:21:4:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+    exit(0);
+[01;32m[K    ^[m[K
+[01m[Ktwentysix.c:27:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+   exit(0);
+[01;32m[K   ^[m[K
+[01m[Ktwentysix.c:36:4:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+    exit(0);
+[01;32m[K    ^[m[K
+[01m[Ktwentysix.c:70:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [enabled by default]
+   exit(0);
+[01;32m[K   ^[m[K
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ ./a.out
+Parent sending msg gREETINGS
+Child read message gREETINGS. sending changes to parent
+Child sending Greetings
+parent received msg Greetings
+]0;tirwin@dmzlondo:~/ElAarag/assignment2[tirwin@dmzlondo assignment2]$ exit
+exit
+
+Script done on Fri 09 Feb 2018 10:19:36 AM EST

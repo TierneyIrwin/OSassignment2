@@ -21,7 +21,7 @@ int main()
 	printf("Enter a number: ");
 	int Integer;
 	scanf("%d",&Integer);
-	if(Integer < 0){
+	if(Integer <= 0){
 		printf("Invalid\n");
 		exit(0);
 	}

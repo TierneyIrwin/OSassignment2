@@ -9,8 +9,8 @@
 #define WRITE_END2 1
 #define READ_END2 2
 #define WRITE_END1 3
-int main(void){
-	char write_msg[BUFFER_SIZE] = "Greetings";
+int main(int argc, char argv[]){
+	char write_msg[BUFFER_SIZE] = "gREETINGS";
 	char read_msg[BUFFER_SIZE];
 	int fd[4];
 	int sent,i;

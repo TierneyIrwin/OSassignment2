@@ -9,7 +9,7 @@ int main(int argc, char argv[])
 	printf("Enter a number: ");
 	int Integer;
 	scanf("%d", &Integer);
-	if(Integer < 0)
+	if(Integer <= 0)
 	{
 		printf("Invalid Integer. Positive Integers Only.\n");
 		exit(0);
