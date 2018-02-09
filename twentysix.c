@@ -4,13 +4,13 @@
 #include <unistd.h>
 #include <ctype.h>
 
-#define BUFFER_SIZE 25
+#define BUFFER_SIZE 45
 #define READ_END1 0
 #define WRITE_END2 1
 #define READ_END2 2
 #define WRITE_END1 3
-int main(int argc, char argv[]){
-	char write_msg[BUFFER_SIZE] = "gREETINGS";
+int main(int argc, char *argv[]){
+	char write_msg[BUFFER_SIZE] = "Hello There";
 	char read_msg[BUFFER_SIZE];
 	int fd[4];
 	int sent,i;
